@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Far Away</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./icons/icon.svg" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <h1>🌴 FAR AWAY 💼</h1>
+    </header>
+    <nav>
+      <p>What do you need for your 😍 trip?</p>
+      <select name="itemCount" id="ItemCount" class="inputs">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+      </select>
+      <input type="text" id="ItemName" class="inputs" placeholder="Item..." />
+      <button class="inputs" id="AddItem">ADD</button>
+    </nav>
+    <article>
+        <div class="added_items_list" id="AddedItemsList">
+            <!-- <div class="added_item"><input type="checkbox" name="one" id="One"><label for="One">ONE</label></div> -->
+        </div>
+      <div class="article_input_area">
+        <select name="itemSort" id="ItemSort" class="inputs">
+          <option value="default">SORT BY INPUT ORDER</option>
+          <option value="Ascending">Ascending</option>
+          <option value="Descending">Descending</option>
+        </select>
+        <button class="inputs" id="Clear">CLEAR LIST</button>
+      </div>
+    </article>
+    <footer>
+      <p>
+        💼 You have some items in your list, and you already packed some(%).
+      </p>
+    </footer>
+    <script src="./action.js"></script>
+  </body>
+</html>
